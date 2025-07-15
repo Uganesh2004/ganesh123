@@ -1,0 +1,91 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 40px;
+  background: linear-gradient(to right, #0a0a0a, #111);
+}
+
+.content {
+  max-width: 600px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #00ff6a;
+  text-shadow: 0 0 5px #00ff6a;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #bbb;
+}
+
+.role {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #888;
+}
+
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn.green {
+  background-color: #00ff6a;
+  color: black;
+}
+
+.btn.green:hover {
+  background-color: #00cc55;
+}
+
+.btn.dark {
+  background-color: transparent;
+  border: 2px solid #ccc;
+  color: #ccc;
+}
+
+.btn.dark:hover {
+  border-color: white;
+  color: white;
+}
